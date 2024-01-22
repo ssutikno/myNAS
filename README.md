@@ -8,3 +8,12 @@ Features :
 4. Up to 20 TB drives
 
 This system is under design and development, many thanks to supporters
+
+Requirements :
+1. Debian linux minimal installation ( Debian installation guide: https://www.debian.org/releases/bullseye/amd64/ )
+2. Install nfs-kernel-server for NFS ( NFS configuration guide: https://wiki.debian.org/NFSServerSetup ) and SMB ( Samba configuration guide: https://wiki.debian.org/Samba ) service
+3. Node JS ( dependencies )
+      Express.js: A popular Node.js framework for building web applications.
+      nfs-server: A Node.js package for managing NFS exports.
+      smb-with-node: A Node.js package for interacting with SMB shares.
+      ejs: A templating engine for generating HTML dynamically.
